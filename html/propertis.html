@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties.html</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="jquery-3.7.1.js"> </script>
+    <script src="MyFunction.js"></script>
+
+    <script>
+     
+    $(document).ready(function(){
+      $('#myCheckbox').click(function(){
+        $('#additionalInfo').slideToggle()
+      })
+      $('#myCheckbox1').click(function(){
+        $('#additionalInfo1').slideToggle()
+      })
+      $('#myCheckbox2').click(function(){
+        $('#additionalInfo2').slideToggle()
+      })
+       $('#myCheckbox3').click(function(){
+         $('#additionalInfo3').slideToggle()
+       })
+       $('#myCheckbox4').click(function(){
+         $('#additionalInfo4').slideToggle()
+       })
+       $('#myCheckbox5').click(function(){
+     $('#additionalInfo5').slideToggle()
+       })
+       $('#myCheckbox6').click(function(){
+         $('#additionalInfo6').slideToggle()
+       })
+       $('#myCheckbox7').click(function(){
+         $('#additionalInfo7').slideToggle()
+       })
+       $('#myCheckbox8').click(function(){
+         $('#additionalInfo8').slideToggle()
+       })
+       $('#myCheckbox9').click(function(){
+         $('#additionalInfo9').slideToggle()
+       })
+     
+       $('#com').click(function(){
+        $('#resultForm').fadeToggle()
+      })
+     
+
+
+    })
+      
+
+    </script>
+</head>
+<body>
+    <div class="bk">
+    <div class="ul">
+        <ul >
+          <div> <div class="menu"><li><a href="home.html">Home</a></li></div></div>
+          <div><div class="menu"><li><a href="aboutUs.html">AboutUs</a></li></div></div>
+          <div> <div class="menu"><li><a href="propertis.html">Propertis</a></li></div></div>      
+        </ul>
+        </div>
+        
+        <div>
+            <table class="pro">
+                <tr>
+                    <td>اختيار</td>
+                    <td>اظهار التفاصيل</td>
+                    <td>الأيجار الشهري </td>
+                    <td>تفاصيل</td>
+                    <td>المدينة</td>
+        
+                </tr>
+                <div class="card">
+                <tr class="hid" >
+                    <td><input type="radio" class="btn" id="addToCartBtn1" onclick="addToCart('Watermelon', 2.50)"></td>
+                    <td><input type="checkbox" id="myCheckbox"></td>
+                    <td>180000</td>
+                    <td>شقة غرفتين وصالة مساحة 85 متر </td>
+                    <td>دمشق</td>
+        
+                </tr>
+                </div>
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo" style="display: none;">
+                            <p class="table-text"> طابق ثالث ، آجار بعقد سنوي، مفروش 
+                       </p> 
+                       <div class="img">
+                        <img src="1.jpg" class="image">
+                       </div>
+                    </div>
+                    </td>
+               
+                </tr>
+                
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name="" id="myCheckbox1"></td>
+                    <td>300000</td>
+                    <td>شقة اربع غرف وصالون ديلوكس 120متر </td>
+                    <td>دمشق</td>
+        
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo1" style="display: none;">
+                            <p class="table-text">طابق ثاني ، بيع ، يتوفر بلكون ، غير مفروش 
+                       </p>
+                       <div class="img">
+                        <img src="2.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name="" id="myCheckbox2"></td>
+                    <td>200000</td>
+                    <td>شقة غرفة وصالون مع حديقة مساحة 100متر </td>
+                    <td>دمشق</td>
+        
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo2" style="display: none;">
+                            <p class="table-text"> بيع ، يتوفر كراج ، مفروش 
+                       </p>
+                       <div class="img">
+                        <img src="3.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+
+
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name="" id="myCheckbox3"></td>
+                    <td>150000</td>
+                    <td>شقة غرفتين وصالة مساحة 70 متر </td>
+                    <td>حمص</td>
+        
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo3" style="display: none;">
+                            <p class="table-text">طابق رابع ، بيع ، غير مفروش 
+                       </p>
+                       <div class="img">
+                        <img src="4.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name=""id="myCheckbox4"></td>
+                    <td>150000</td>
+                    <td>شقة ثلاث غرف وصالة مع حديقة مساحة 140متر</td>
+                    <td>دمشق</td>
+        
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo4" style="display: none;">
+                            <p class="table-text"> آجار بعقد صيفي ، يتوفر مسبح داخل الحديقة ، يتوفر كراج ، مفروش 
+                       </p>
+                       <div class="img">
+                        <img src="5.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+
+
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name="" id="myCheckbox5"></td>
+                    <td>800000</td>
+                    <td>شاليه على بحر ثلاث غرف وصالة طابقين مساحة 100متر </td>
+                    <td>طرطوس</td>
+        
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo5" style="display: none;">
+                            <p class="table-text">آجار ، يتوفر بلكون على الشاطئ ، مفروش 
+                       </p>
+                       <div class="img">
+                        <img src="6.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+
+
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name="" id="myCheckbox6"></td>
+                    <td>450000</td>
+                    <td>شقة غرفتين وصالون مساحة 75 متر </td>
+                    <td>طرطوس</td>
+        
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo6" style="display: none;">
+                            <p class="table-text"> آجار بعقد شهري ، طابق ثاني ، غير مفروش
+                       </p>
+                       <div class="img">
+                        <img src="7.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+
+
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name="" id="myCheckbox7"></td>
+                    <td>600000</td>
+                    <td>شاليه على بحر ثلاث غرف وصالة طابقين مساحة 100متر </td>
+                    <td>اللاذقية</td>
+        
+                </tr>
+
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo7" style="display: none;">
+                            <p class="table-text">آجار ، مفروش 
+                       </p>
+                       <div class="img">
+                        <img src="8.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name=""id="myCheckbox8"></td>
+                    <td>1200000</td>
+                    <td>شقة 6 غرف وصالونين مساحة 220 متر</td>
+                    <td>حماه</td>
+        
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo8" style="display: none;">
+                            <p class="table-text"> بيع ، يتوفر بلكون مستقل لكل غرفة ، يتوفر كراج ، غير مفروش 
+                       </p>
+                       <div class="img">
+                        <img src="9.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="checkbox" name=""id="myCheckbox9"></td>
+                    <td>1000000</td>
+                    <td>شقة 3 غرف وصالون مساحة 150 متر</td>
+                    <td>حماه</td>
+        
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <div id="additionalInfo9" style="display: none;">
+                            <p class="table-text"> آجار بعقد سنوي ، طابق خامس ، مفروش
+                       </p>
+                       <div class="img">
+                        <img src="10.jpg" class="image">
+                       </div>
+                    </div> 
+                    </td>
+                
+                </tr>
+               
+
+               
+            </table>
+            <br>
+
+
+        </div>
+        <button href="#" id="com">  متابعة </button>
+
+
+
+  <form name="myForm" action="result.html" method="get" id="resultForm" style="display: none;">
+    <h1>نموذج طلب عقار</h1>
+
+    <div class="input-box">
+        <label for="fname">الاسم الكامل : </label>
+        <input type="text" id="fname" name="first_name">
+    </div>
+
+    <div class="input-box">
+        <h6 style="color: rgb(214, 62, 62); font-size: 15px;"> يجب أن يتكون الرقم الوطني من 11 خانة </h6>
+        <label for="National">الرقم الوطني: </label >
+        <input type="text" class="nationalId" name="national_number"  required maxlength ="11" placeholder="_ _ _    _ _ _    _ _ _    _ _" >
+    </div>
+    <div class="input-box">
+        <label for="dt">تاريخ الميلاد: </label>
+        <input type="date" id="dt" onchange="mydate1();"/>
+        <input style="display: none;" type="text" id="ndt"  onclick="mydate();"/>
+    </div>
+    <div class="input-box">
+        <label for="pNum">رقم الجوال : </label>
+        <input type="text"onkeydown="phoneNumberFormatter()" maxlength="12" name="phone_number" id="pNum" placeholder="0911-111-111" >
+    </div>
+    <div class="input-box">
+        <label for="email">البريد الإلكتروني: </label>
+        <input type="text" id="email" name="user_email" placeholder="example@exmaple.com">
+    </div>
+
+    <div class="captcha-container">
+        <label for="captcha">captcha : </label>
+        <button class="captcha-button" onclick="refreshCaptcha()">ReCaptcha</button>
+        <div class="captcha" id="captcha">ABC123 </div>
+        <input type="text" name="" id="" >
+    </div>
+    <div class="btn3">
+        <button> إرسال </button>
+        
+    </div> 
+    
+</form>
+
+</body>
+</html>
+
+
+
